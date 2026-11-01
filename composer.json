@@ -1,0 +1,16 @@
+{
+    "name": "nguemoue/env-doctor",
+    "description": "Zero-dependency PHP CLI that catches a broken .env before deploy: missing keys, committed secrets and leftover placeholders.",
+    "type": "library",
+    "license": "MIT",
+    "bin": ["bin/env-doctor"],
+    "require": {
+        "php": ">=8.1"
+    },
+    "autoload": {
+        "classmap": ["src/"]
+    },
+    "scripts": {
+        "test": "php tests/run.php"
+    }
+}
